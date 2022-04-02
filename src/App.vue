@@ -3,7 +3,12 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
-  <router-view/>
+
+  <div class="container">
+    <div class="row">
+      <router-view />
+    </div>
+  </div>
 </template>
 
 <style>
